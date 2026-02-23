@@ -6,7 +6,7 @@
 
 🎯 Purpose
 
-To determine:
+- To determine:
 
 - The maximum number of topics a 2-person team can collectively know.
 - The number of teams that can achieve that maximum.
@@ -16,7 +16,6 @@ To determine:
 - Each attendee’s knowledge is represented as a binary string:
 '1' → topic is known
 '0' → topic is not known
-
 - When two people form a team:
 - A topic is considered known if at least one of them knows it.
 - This is equivalent to performing a position-wise logical OR operation.
