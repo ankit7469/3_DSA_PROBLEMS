@@ -53,5 +53,5 @@ Return both values.
 - Improve nested loop reasoning
 - Strengthen problem-solving skills for competitive programming
 
--------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
 
