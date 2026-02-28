@@ -107,3 +107,40 @@ Return both values.
 -----------------------------------------------------------------------------------------
 ## 3.Problem-  Encryption
 -----------------------------------------------------------------------------------------
+
+🎯 Purpose
+
+The goal of this problem is to encrypt a given string by arranging it into a logical grid structure and then reading it column-wise.
+
+- This problem helps develop:
+- Logical thinking
+- Grid visualization skills
+- Understanding of traversal patterns
+- Stronger reasoning in string manipulation
+
+🔹 Key Insight
+
+- The string is treated as a continuous sequence (spaces are ignored).
+- A rectangular grid structure is determined based on the string length.
+- The string is filled into the grid row by row (left to right).
+- The encrypted message is formed by reading the grid column by column.
+- Each column forms one word in the encrypted output.
+- The final result is created by joining all column-words with spaces.
+
+🔹 Core Concept
+
+- Treating a 1D string logically as a 2D grid.
+- Understanding the difference between row-wise filling and column-wise traversal.
+- Mapping positions logically without necessarily creating an actual 2D array.
+- Handling edge cases when the grid is not perfectly filled.
+
+🔹 Learning Outcome
+
+- After solving this problem, you will:
+- Improve your ability to visualize grid-based structures
+- Strengthen your understanding of traversal techniques
+- Gain clarity on transforming 1D data into 2D logical layouts
+- Enhance problem-solving skills for encryption-style challenges
+- Build confidence for competitive programming problems involving indexing and structure mapping
+
+---------------------------------------------------------------------------------------------
