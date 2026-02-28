@@ -105,4 +105,5 @@ Return both values.
 - Strengthen logical reasoning for transformation-based problems
 
 -----------------------------------------------------------------------------------------
-
+## 3.Problem-  Encryption
+-----------------------------------------------------------------------------------------
