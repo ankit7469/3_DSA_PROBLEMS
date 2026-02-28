@@ -144,3 +144,5 @@ The goal of this problem is to encrypt a given string by arranging it into a log
 - Build confidence for competitive programming problems involving indexing and structure mapping
 
 ---------------------------------------------------------------------------------------------
+## 4. Problem - Bigger is Greater
+--------------------------------------------------------------------------------------------
