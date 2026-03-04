@@ -146,3 +146,36 @@ The goal of this problem is to encrypt a given string by arranging it into a log
 ---------------------------------------------------------------------------------------------
 ## 4. Problem - Bigger is Greater
 --------------------------------------------------------------------------------------------
+
+🔹 Purpose
+
+- The goal of this problem is to find the next lexicographically greater string using the same characters of the given word.
+- If it is not possible to form a greater string, the output should be "no answer".
+- This problem helps in understanding how to generate the next permutation of characters in dictionary order.
+
+🔹 Key Insight
+
+- A lexicographically greater string means the next word that would appear later in dictionary order.
+- To obtain the next greater string, we look for a position where the order of characters from the right side breaks.
+- After identifying this position, a slightly larger character from the right side is chosen to replace it.
+The remaining characters to the right are rearranged to produce the smallest possible order.
+If the entire string is already in descending order, then no greater permutation exists.
+
+🔹 Core Concept
+
+Understanding lexicographical ordering of strings.
+Identifying the pivot point where the character order can be increased.
+Swapping characters strategically to produce the next possible greater arrangement.
+Rearranging the remaining part of the string to maintain the smallest valid order.
+Applying the concept of next permutation in string manipulation problems.
+
+🔹 Learning Outcome
+
+After solving this problem, you will:
+Understand how lexicographical ordering works.
+Learn the concept of generating the next permutation of a string.
+Improve problem-solving skills in string manipulation.
+Gain experience with algorithmic thinking used in competitive programming.
+Strengthen your ability to identify patterns in character ordering problems.
+
+--------------------------------------------------------------------------------------------
