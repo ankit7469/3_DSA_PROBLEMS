@@ -179,3 +179,55 @@ The goal of this problem is to encrypt a given string by arranging it into a log
 - Strengthen your ability to identify patterns in character ordering problems.
 
 --------------------------------------------------------------------------------------------
+## 5. Problem - Modified Kaprekar Numbers
+--------------------------------------------------------------------------------------------
+
+🔹 Purpose
+
+The objective of this problem is to identify Modified Kaprekar Numbers within a given range.
+
+A Modified Kaprekar Number is a number whose square can be divided into two parts such that the sum of those parts equals the original number.
+
+This problem helps in developing logical thinking related to number manipulation and string-based splitting techniques.
+
+🔹 Key Insight
+
+For each number in the given range, its square is calculated.
+
+The square is then divided into two parts: a left part and a right part.
+
+These two parts represent portions of the squared value.
+
+If the sum of the left and right parts equals the original number, that number is considered a Modified Kaprekar Number.
+
+All such numbers within the range are printed.
+
+If no numbers satisfy the condition, the output should be "INVALID RANGE".
+
+🔹 Core Concept
+
+Understanding how a number’s square can be partitioned into two logical parts.
+
+Treating numeric values as strings to easily separate digits.
+
+Comparing the sum of the separated parts with the original number.
+
+Handling special cases where the left portion may be empty.
+
+Iterating through a range of numbers and validating each candidate.
+
+🔹 Learning Outcome
+
+After solving this problem, you will:
+
+Understand the concept of Kaprekar numbers.
+
+Improve skills in number manipulation and digit partitioning.
+
+Learn how to combine mathematical reasoning with string operations.
+
+Gain experience handling edge cases and range validation.
+
+Strengthen problem-solving ability in competitive programming challenges.
+
+-----------------------------------------------------------------------------------
