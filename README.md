@@ -215,4 +215,5 @@ The goal of this problem is to encrypt a given string by arranging it into a log
 - Strengthen problem-solving ability in competitive programming challenges.
 
 --------------------------------------------------------------------------------------------------------
-## 6. Problem : 
+## 6. Problem : Beautiful Triplets
+--------------------------------------------------------------------------------------------------------
