@@ -217,50 +217,36 @@ The goal of this problem is to encrypt a given string by arranging it into a log
 --------------------------------------------------------------------------------------------------------
 ## 6. Problem : Beautiful Triplets
 --------------------------------------------------------------------------------------------------------
+
 🔹 Purpose
 
 The objective of this problem is to find the number of beautiful triplets present in a given array.
-
 A beautiful triplet is a set of three numbers in the array such that the difference between consecutive elements is equal to a given value d.
-
 This problem focuses on identifying patterns in numbers and efficiently checking relationships between elements in a sequence.
 
 🔹 Key Insight
 
 A beautiful triplet follows a specific pattern where three numbers maintain a constant difference.
-
 If a number x is part of a beautiful triplet, the other two numbers must follow the pattern x + d and x + 2d.
-
 The array is examined to determine whether these required values exist.
-
 Each valid combination that satisfies the difference condition forms a beautiful triplet.
-
 Counting these valid triplets gives the final result.
 
 🔹 Core Concept
 
 Understanding relationships between numbers based on a fixed difference.
-
 Recognizing the pattern of elements that form a valid triplet.
-
 Efficiently checking whether required values exist in the dataset.
-
 Traversing an array and verifying the presence of elements that complete the pattern.
-
 Avoiding unnecessary comparisons by using logical checks for the required values.
 
 🔹 Learning Outcome
 
 After solving this problem, you will:
-
 Understand how to identify patterns within arrays.
-
 Improve your ability to solve problems involving fixed differences between elements.
-
 Learn efficient ways to verify the existence of related values in a dataset.
-
 Strengthen logical reasoning for sequence-based problems.
-
 Build confidence in solving array problems commonly found in coding interviews and competitive programming.
 
 -------------------------------------------------------------------------------------------------------------------
