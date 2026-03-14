@@ -250,5 +250,54 @@ The goal of this problem is to encrypt a given string by arranging it into a log
 - Build confidence in solving array problems commonly found in coding interviews and competitive programming.
 
 -------------------------------------------------------------------------------------------------------------------
-## 7.
+## 7. Problem - Minimum Distance
 -------------------------------------------------------------------------------------------------------------------
+🔹 Purpose
+
+The objective of this problem is to find the minimum distance between two equal elements in a given array.
+
+The distance between two elements is defined as the absolute difference between their index positions in the array.
+
+If no element appears more than once, the output should be -1.
+
+This problem helps in understanding how to analyze repeating elements and determine the smallest index gap between them.
+
+🔹 Key Insight
+
+The array may contain elements that appear multiple times.
+
+For each repeating element, the distance between its occurrences can be measured using their index positions.
+
+The goal is to identify the smallest distance among all such repeating element pairs.
+
+If no element repeats in the array, then no valid distance exists.
+
+In that case, the result should be -1.
+
+🔹 Core Concept
+
+Detecting repeated elements within an array.
+
+Tracking the index positions of each occurrence.
+
+Computing the distance between consecutive occurrences of the same element.
+
+Maintaining the minimum distance encountered.
+
+Handling edge cases when no repeated elements exist.
+
+🔹 Learning Outcome
+
+After solving this problem, you will:
+
+Improve your ability to analyze array patterns and repetitions.
+
+Learn how to calculate index-based distances in sequences.
+
+Strengthen skills in tracking and comparing values efficiently.
+
+Understand how to manage edge cases in array problems.
+
+Gain experience with problems commonly asked in coding interviews and competitive programming.
+
+-----------------------------------------------------------------------------------------------------
