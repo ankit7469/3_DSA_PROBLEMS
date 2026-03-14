@@ -250,3 +250,5 @@ The goal of this problem is to encrypt a given string by arranging it into a log
 - Build confidence in solving array problems commonly found in coding interviews and competitive programming.
 
 -------------------------------------------------------------------------------------------------------------------
+## 7.
+-------------------------------------------------------------------------------------------------------------------
