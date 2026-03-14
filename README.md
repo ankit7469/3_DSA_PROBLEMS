@@ -285,4 +285,6 @@ The goal of this problem is to encrypt a given string by arranging it into a log
 - Understand how to manage edge cases in array problems.
 - Gain experience with problems commonly asked in coding interviews and competitive programming.
 
------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+## 8. Probelm - 
+------------------------------------------------------------------------------------------------------------------
