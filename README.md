@@ -290,34 +290,34 @@ The goal of this problem is to encrypt a given string by arranging it into a log
 
 🔹 Purpose
 
-The objective of this problem is to convert a given time (hours and minutes) into its spoken English representation.
-Instead of displaying time in numeric format, the goal is to represent it in natural language, similar to how people commonly speak about time.
-This problem helps in understanding conditional logic and mapping numeric values to word-based expressions.
+- The objective of this problem is to convert a given time (hours and minutes) into its spoken English representation.
+- Instead of displaying time in numeric format, the goal is to represent it in natural language, similar to how people commonly speak about time.
+- This problem helps in understanding conditional logic and mapping numeric values to word-based expressions.
 
 🔹 Key Insight
 
-Time consists of two components: hours and minutes.
-The hour indicates the current hour, while the minutes determine how the time should be expressed.
-When minutes are less than or equal to thirty, the time is expressed as minutes past the current hour.
-When minutes are greater than thirty, the remaining minutes to the next hour are calculated and expressed as to the next hour.
-Special phrases are used for certain minute values such as quarter past, half past, and quarter to.
-When minutes are zero, the time is expressed using o' clock.
+- Time consists of two components: hours and minutes.
+- The hour indicates the current hour, while the minutes determine how the time should be expressed.
+- When minutes are less than or equal to thirty, the time is expressed as minutes past the current hour.
+- When minutes are greater than thirty, the remaining minutes to the next hour are calculated and expressed as to the next hour.
+- Special phrases are used for certain minute values such as quarter past, half past, and quarter to.
+- When minutes are zero, the time is expressed using o' clock.
 
 🔹 Core Concept
 
-Mapping numeric values of hours and minutes to their word equivalents.
-Applying conditional logic to determine whether the time should be expressed as past or to the hour.
-Handling special cases for commonly used time expressions.
-Adjusting the hour value when minutes indicate time approaching the next hour.
-Constructing natural language output using structured conditions.
+- Mapping numeric values of hours and minutes to their word equivalents.
+- Applying conditional logic to determine whether the time should be expressed as past or to the hour.
+- Handling special cases for commonly used time expressions.
+- Adjusting the hour value when minutes indicate time approaching the next hour.
+- Constructing natural language output using structured conditions.
 
 🔹 Learning Outcome
 
-After solving this problem, you will:
-Improve your ability to convert numerical data into readable language.
-Strengthen your understanding of conditional branching and edge cases.
-Gain practice in string construction and formatting.
-Develop better logical thinking for problems involving multiple rules.
-Build confidence in solving real-world style programming challenges.
+- After solving this problem, you will:
+- Improve your ability to convert numerical data into readable language.
+- Strengthen your understanding of conditional branching and edge cases.
+- Gain practice in string construction and formatting.
+- Develop better logical thinking for problems involving multiple rules.
+- Build confidence in solving real-world style programming challenges.
 
 -----------------------------------------------------------------------------------
