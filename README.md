@@ -7,7 +7,6 @@
 🎯 Purpose
 
 - To determine:
-
 - The maximum number of topics a 2-person team can collectively know.
 - The number of teams that can achieve that maximum.
 
