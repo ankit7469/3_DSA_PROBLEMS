@@ -320,5 +320,6 @@ The goal of this problem is to encrypt a given string by arranging it into a log
 - Develop better logical thinking for problems involving multiple rules.
 - Build confidence in solving real-world style programming challenges.
 
------------------------------------------------------------------------------------
-## 9. Problem - 
+--------------------------------------------------------------------------------------------------------------
+## 9. Problem - Chocolate feast
+--------------------------------------------------------------------------------------------------------------
