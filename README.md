@@ -326,50 +326,34 @@ The goal of this problem is to encrypt a given string by arranging it into a log
 
 🔹 Purpose
 
-The objective of this problem is to determine the maximum number of chocolates that can be eaten given a certain amount of money, the cost of each chocolate, and a wrapper exchange offer.
-
-This problem combines basic arithmetic with iterative logic, where additional chocolates can be obtained by exchanging wrappers.
+- The objective of this problem is to determine the maximum number of chocolates that can be eaten given a certain amount of money, the cost of each chocolate, and a wrapper exchange offer.
+- This problem combines basic arithmetic with iterative logic, where additional chocolates can be obtained by exchanging wrappers.
 
 🔹 Key Insight
 
-Chocolates are initially purchased using the available money.
-
-Each chocolate provides one wrapper.
-
-A certain number of wrappers can be exchanged for additional chocolates.
-
-The process of exchanging wrappers can continue as long as enough wrappers are available.
-
-The total chocolates consumed include both purchased and exchanged chocolates.
-
-The key challenge is to repeatedly apply the wrapper exchange process until it is no longer possible.
+- Chocolates are initially purchased using the available money.
+- Each chocolate provides one wrapper.
+- A certain number of wrappers can be exchanged for additional chocolates.
+- The process of exchanging wrappers can continue as long as enough wrappers are available.
+- The total chocolates consumed include both purchased and exchanged chocolates.
+- The key challenge is to repeatedly apply the wrapper exchange process until it is no longer possible.
 
 🔹 Core Concept
 
-Calculating the initial number of chocolates that can be bought.
-
-Tracking the number of wrappers obtained from consumed chocolates.
-
-Repeatedly exchanging wrappers for new chocolates.
-
-Updating both the total chocolates and remaining wrappers after each exchange.
-
-Recognizing that this is a repetitive process, best handled using a loop rather than fixed steps.
-
-Ensuring the process stops when wrapper exchange is no longer possible.
+- Calculating the initial number of chocolates that can be bought. 
+- Tracking the number of wrappers obtained from consumed chocolates.
+- Repeatedly exchanging wrappers for new chocolates.
+- Updating both the total chocolates and remaining wrappers after each exchange.
+- Recognizing that this is a repetitive process, best handled using a loop rather than fixed steps.
+- Ensuring the process stops when wrapper exchange is no longer possible.
 
 🔹 Learning Outcome
 
-After solving this problem, you will:
-
-Understand how to model real-world iterative processes in code.
-
-Improve your ability to use loops for repeating conditions.
-
-Strengthen your skills in state tracking (wrappers and total count).
-
-Learn to avoid fixed-step logic in problems involving repeated operations.
-
-Build confidence in solving problems involving simulation and accumulation.
+- After solving this problem, you will:
+- Understand how to model real-world iterative processes in code.
+- Improve your ability to use loops for repeating conditions.
+- Strengthen your skills in state tracking (wrappers and total count).
+- Learn to avoid fixed-step logic in problems involving repeated operations.
+- Build confidence in solving problems involving simulation and accumulation.
 
 ------------------------------------------------------------------------------------------
