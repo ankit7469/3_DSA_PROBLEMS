@@ -355,7 +355,7 @@ The goal of this problem is to encrypt a given string by arranging it into a log
 - Learn to avoid fixed-step logic in problems involving repeated operations.
 - Build confidence in solving problems involving simulation and accumulation.
 
---------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
 ## 10. Problem - Service Lane
---------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
 
