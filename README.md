@@ -360,4 +360,3 @@ The goal of this problem is to encrypt a given string by arranging it into a log
 ## 10. Problem - Service Lane
 --------------------------------------------------------------------------------------------------------------
 
-🔹 Purpose 
