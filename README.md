@@ -359,3 +359,52 @@ The goal of this problem is to encrypt a given string by arranging it into a log
 ## 10. Problem - Service Lane 
 --------------------------------------------------------------------------------------------------------
 
+🔹 Purpose
+
+The objective of this problem is to determine the maximum size of a vehicle that can pass through a segment of a service lane.
+
+The lane is divided into segments, each having a specific width. For a given range of segments, the vehicle must pass through the narrowest segment in that range.
+
+This problem focuses on efficiently analyzing subarrays and identifying constraints within a given range.
+
+🔹 Key Insight
+
+The service lane consists of multiple segments, each with a defined width.
+
+Each query specifies a range of indices representing entry and exit points.
+
+A vehicle can pass through the lane only if it fits within the minimum width in that range.
+
+Therefore, for every query, the smallest width in the specified segment determines the answer.
+
+The result for each query is independent and must be computed separately.
+
+🔹 Core Concept
+
+Representing the service lane as an array of widths.
+
+Processing multiple queries that define subarrays.
+
+Extracting a portion of the array based on given indices.
+
+Finding the minimum value within that subarray.
+
+Understanding that the smallest element governs the overall constraint.
+
+Applying range-based analysis on arrays.
+
+🔹 Learning Outcome
+
+After solving this problem, you will:
+
+Understand how to work with subarrays and range queries.
+
+Improve your ability to identify minimum constraints in a dataset.
+
+Strengthen your skills in array slicing and traversal.
+
+Learn how to handle multiple queries efficiently.
+
+Build a foundation for advanced topics like range minimum queries (RMQ).
+
+-----------------------------------------------------------------------------------
