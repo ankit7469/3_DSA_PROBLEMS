@@ -1,7 +1,7 @@
 # 3_DSA_PROBLEMS
-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
 ##  1. Problem – ACM Team 
-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
 
 🎯 Purpose
 
@@ -392,3 +392,41 @@ The goal of this problem is to encrypt a given string by arranging it into a log
 - Build a foundation for advanced topics like range minimum queries (RMQ).
 
 -----------------------------------------------------------------------------------------------------
+## 11. Problem - Lisa's Workbook
+-----------------------------------------------------------------------------------------------------
+
+🔹 Purpose
+
+- The objective of this problem is to determine how many special problems exist in a workbook organized into chapters and pages.
+- Each chapter contains a certain number of problems, and each page can hold a limited number of problems. A problem is considered special if its problem number matches the page number on which it appears.
+- This problem helps develop skills in handling structured data across multiple levels such as chapters, pages, and problems.
+
+🔹 Key Insight
+
+- The workbook is divided into multiple chapters.
+- Each chapter contains a fixed number of problems.
+- Each page can contain up to a maximum number of problems.
+- Problems are arranged sequentially across pages within each chapter.
+- A problem becomes special when its problem number matches the page number.
+- The goal is to count all such special problems across all chapters.
+
+
+🔹 Core Concept
+
+- Dividing chapter problems into pages based on a fixed page capacity.
+- Tracking page numbers continuously across chapters.
+- Determining the range of problems present on each page.
+Checking whether the page number falls within the problem range of that page.
+Counting all occurrences where the page number matches a problem number.
+
+🔹 Learning Outcome
+
+After solving this problem, you will:
+
+Understand how to simulate multi-level structures such as chapters and pages.
+Improve your ability to work with range-based logic in arrays.
+Strengthen your skills in handling nested iteration problems.
+Learn how to manage sequential numbering across multiple groups.
+Build confidence in solving structured simulation problems in coding interviews and competitive programming.
+
+---------------------------------------------------------------------------------------------------------
