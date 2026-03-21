@@ -416,17 +416,17 @@ The goal of this problem is to encrypt a given string by arranging it into a log
 - Dividing chapter problems into pages based on a fixed page capacity.
 - Tracking page numbers continuously across chapters.
 - Determining the range of problems present on each page.
-Checking whether the page number falls within the problem range of that page.
-Counting all occurrences where the page number matches a problem number.
+- Checking whether the page number falls within the problem range of that page.
+- Counting all occurrences where the page number matches a problem number.
 
 🔹 Learning Outcome
 
 After solving this problem, you will:
 
-Understand how to simulate multi-level structures such as chapters and pages.
-Improve your ability to work with range-based logic in arrays.
-Strengthen your skills in handling nested iteration problems.
-Learn how to manage sequential numbering across multiple groups.
-Build confidence in solving structured simulation problems in coding interviews and competitive programming.
+- Understand how to simulate multi-level structures such as chapters and pages.
+- Improve your ability to work with range-based logic in arrays.
+- Strengthen your skills in handling nested iteration problems.
+- Learn how to manage sequential numbering across multiple groups.
+- Build confidence in solving structured simulation problems in coding interviews and competitive programming.
 
 ---------------------------------------------------------------------------------------------------------
