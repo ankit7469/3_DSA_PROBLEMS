@@ -432,3 +432,45 @@ After solving this problem, you will:
 ---------------------------------------------------------------------------------------------------------
 ## 12. Problem - Flatland space station
 ---------------------------------------------------------------------------------------------------------
+
+🔹 Purpose
+
+- The objective of this problem is to determine the maximum distance between any city and its nearest space station in Flatland.
+- Each city is placed on a straight number line, and some cities contain space stations. The goal is to find the city that is farthest from its closest space station.
+- This problem helps develop understanding of distance optimization, range analysis, and maximum gap detection in arrays.
+
+🔹 Key Insight
+
+- Cities are arranged sequentially from 0 to n−1.
+- Some cities contain space stations.
+- Every city connects to its nearest space station.
+- The distance between cities is measured using their index difference.
+- The task is to identify the largest minimum distance between any city and its nearest space station.
+- Instead of checking each city individually, the solution focuses on analyzing:
+
+a. the distance before the first station
+b. the distances between consecutive stations
+c. the distance after the last station.
+
+🔹 Core Concept
+
+- Treat space station locations as sorted positions on a number line.
+- Compute the distance between consecutive stations.
+- The farthest city between two stations lies at the midpoint of their gap.
+
+Also check:
+- distance from city 0 to the first station
+- distance from the last station to city n−1
+- The answer is the maximum among all these distances.
+
+🔹 Learning Outcome
+
+After solving this problem, you will:
+
+- Understand how to analyze distance-based optimization problems.
+- Learn how to use gap analysis between array elements efficiently.
+- Improve skills in working with sorted positions and ranges.
+- Strengthen logic for finding maximum minimum distances.
+- Build a foundation for solving advanced problems involving greedy strategies and interval reasoning.
+
+---------------------------------------------------------------------------------------------------------------------
