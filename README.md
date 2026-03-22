@@ -430,3 +430,5 @@ After solving this problem, you will:
 - Build confidence in solving structured simulation problems in coding interviews and competitive programming.
 
 ---------------------------------------------------------------------------------------------------------
+## 12. Problem - Flatland space station
+---------------------------------------------------------------------------------------------------------
