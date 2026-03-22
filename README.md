@@ -466,7 +466,6 @@ Also check:
 🔹 Learning Outcome
 
 After solving this problem, you will:
-
 - Understand how to analyze distance-based optimization problems.
 - Learn how to use gap analysis between array elements efficiently.
 - Improve skills in working with sorted positions and ranges.
