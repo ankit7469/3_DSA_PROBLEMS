@@ -429,9 +429,9 @@ After solving this problem, you will:
 - Learn how to manage sequential numbering across multiple groups.
 - Build confidence in solving structured simulation problems in coding interviews and competitive programming.
 
----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 ## 12. Problem - Flatland space station
----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 
 🔹 Purpose
 
