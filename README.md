@@ -473,5 +473,39 @@ After solving this problem, you will:
 - Build a foundation for solving advanced problems involving greedy strategies and interval reasoning.
 
 ---------------------------------------------------------------------------------------------------------------------
-## 13, Problem - 
+## 13, Problem - Fair rations
 ---------------------------------------------------------------------------------------------------------------------
+
+🔹 Purpose
+
+- The objective of this problem is to ensure that every person in a line receives an even number of bread loaves by distributing additional loaves according to specific rules.
+- Whenever one loaf is given to a person, one loaf must also be given to their immediate neighbor. The task is to determine the minimum number of loaves required to make all values even, or determine if it is not possible.
+- This problem helps develop logical thinking related to parity (even–odd behavior) and sequential array processing.
+
+🔹 Key Insight
+
+- Each distribution operation gives two loaves at a time (one to a person and one to their neighbor).
+- The goal is to convert all odd numbers in the list into even numbers.
+- If a person has an odd number of loaves, one loaf is added to that person and one to the next person.
+- The process continues from left to right across the list.
+- If the last person still has an odd number of loaves after processing, then it is not possible to make all counts even.
+- In such a case, the output should be NO.
+
+🔹 Core Concept
+
+- Understanding how even and odd numbers behave when incremented.
+- Observing that adding one loaf changes the parity of a number.
+- Recognizing that each operation affects two adjacent elements simultaneously.
+- Traversing the array sequentially and correcting odd values step by step.
+- Ensuring that the final element also satisfies the even condition.
+
+🔹 Learning Outcome
+
+- After solving this problem, you will:
+- Strengthen your understanding of even–odd parity logic in arrays.
+- Improve your ability to handle adjacent element operations.
+- Learn how to process arrays sequentially with conditional updates.
+- Develop skills for solving simulation-based algorithmic problems.
+- Gain confidence in solving logic-based interview and competitive programming questions involving array transformations.
+
+---------------------------------------------------------------------------------------------------------------------------
