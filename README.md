@@ -479,7 +479,8 @@ After solving this problem, you will:
 🔹 Purpose
 
 - The objective of this problem is to ensure that every person in a line receives an even number of bread loaves by distributing additional loaves according to specific rules.
-- Whenever one loaf is given to a person, one loaf must also be given to their immediate neighbor. The task is to determine the minimum number of loaves required to make all values even, or determine if it is not possible.
+- Whenever one loaf is given to a person, one loaf must also be given to their immediate neighbor.
+- The task is to determine the minimum number of loaves required to make all values even, or determine if it is not possible.
 - This problem helps develop logical thinking related to parity (even–odd behavior) and sequential array processing.
 
 🔹 Key Insight
@@ -509,3 +510,41 @@ After solving this problem, you will:
 - Gain confidence in solving logic-based interview and competitive programming questions involving array transformations.
 
 ---------------------------------------------------------------------------------------------------------------------------
+## 14. Cavity Map
+---------------------------------------------------------------------------------------------------------------------------
+
+🔹 Purpose
+
+- The objective of this problem is to identify cavities in a square grid of digits and replace them with the character X.
+- A cavity is defined as a cell whose value is strictly greater than all four of its immediate neighbors (up, down, left, and right).
+- This problem helps develop understanding of 2D grid traversal, neighbor comparison logic, and boundary handling in matrix-based problems.
+
+🔹 Key Insight
+
+- The input is a square grid of digits.
+- A cavity exists only if a cell is greater than its four adjacent neighbors.
+- Border cells cannot be cavities because they do not have four neighbors.
+- Only the inner cells of the grid need to be checked.
+- Identified cavity cells must be replaced with X.
+- All comparisons must be performed using the original grid values before updating the result.
+
+🔹 Core Concept
+
+- Represent the grid as a 2D structure.
+- Ignore the boundary rows and columns during processing.
+- Compare each inner cell with its four neighboring cells.
+- Determine whether the current cell is a local maximum.
+- Mark cavities without affecting the original comparison values.
+- Update only the final output grid after all checks are completed.
+
+🔹 Learning Outcome
+
+After solving this problem, you will:
+
+- Improve your understanding of 2D array traversal.
+- Learn how to compare elements with their adjacent neighbors.
+- Strengthen skills in handling boundary conditions in matrices.
+- Develop logic for detecting local maximum values in grids.
+- Gain confidence in solving matrix-based simulation problems commonly asked in coding interviews and competitive programming
+
+-----------------------------------------------------------------------------------------------------------------------------------
